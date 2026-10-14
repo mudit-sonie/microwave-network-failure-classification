@@ -1,0 +1,7 @@
+model,rep,imbalance_handling,cv_macro_f1,cv_cable_recall
+LogReg-L2,binned,none,0.9348741131266293,0.9151515151515153
+LogReg-L2,binned,class_weight=balanced,0.9300260169985932,0.9212121212121213
+LogReg-L2,binned,SMOTE (train folds only),0.9344483585453911,0.9212121212121213
+RandomForest,raw,none,0.9120751546573821,0.8969696969696971
+RandomForest,raw,class_weight=balanced,0.9130006510963993,0.9272727272727274
+RandomForest,raw,SMOTE (train folds only),0.914054489011891,0.9090909090909092
